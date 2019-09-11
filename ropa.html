@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>YOYOGA | ROPA</title>
+	
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1"/>
+	
+	<link rel='stylesheet' href='css/estilos.css' media='screen and (min-width: 320px)'/>
+	
+	<link rel='stylesheet' href='css/estilos1.css' media='screen and (min-width: 1280px) and (max-width: 1366px)'/>
+	
+</head>
+<body id='p2'>
+<div id='ppal'>
+<header>
+     <h1><a href='index.html'>Yoyoga</a></h1>
+
+     <nav id='menu'>
+        <ul id="iconos">
+            <li><a href="#menu">Abrir</a></li>
+            <li><a href="#">Cerrar</a></li>
+        </ul>
+	 
+	     <ul id='botones'>
+	         <li><a href='index.html' class='selected1'>Home</a></li>
+			 <li><a href='ropa.html' class='selected2'>Ropa</a></li>
+			 <li><a href='acerca.html' class='selected3'>Acerca</a></li>
+			 <li><a href='contacto.html' class='selected4'>Contacto</a></li>
+	     </ul>
+	 </nav>     
+	 
+	 <ul>
+         <li><a href='log.html' class='selected5'>Iniciar sesión/Registrarse</a></li>
+		 <li><a href='#' id='bag'>Bolsa de compras</a></li>
+	 </ul>
+</header>
+<main>
+    <div id='alado'>
+		<h2>Ropa</h2>
+	 
+	  <div id='filtro'>
+		<ul id='control'>
+	 
+	          <li><a href='#ppal'>Filtro</a></li>
+		      <li><a href='#'>Cerrar</a></li>
+		   
+		</ul>
+
+     <form method='POST' action='#'  enctype='multipart/form-data' id='formu'>
+	 <div>
+         
+         <fieldset>
+		 
+		   
+		        <legend>Filtrar por</legend>	
+         <div>		 
+	        <p>Categoría</p>
+	        <div>
+		         <input type='radio' name='cat' value='todo' id='todo' checked='checked'/>
+				 <label for='todo' class='items'>Todo</label>
+		     </div>
+	         <div>
+		         <input type='radio' name='cat' value='monos' id='monos'/>
+				 <label for='monos' class='items'>Monos</label>
+		     </div>
+	         <div>
+		         <input type='radio' name='cat' value='pantalones' id='pant' />
+				 <label for='pant' class='items'>Pantalones</label>
+			 </div>
+	         <div>
+		         <input type='radio' name='cat' value='remeras' id='rem' />
+			     <label for='rem' class='items'>Remeras</label>
+			 </div>
+	         <div>
+		         <input type='radio' name='cat' value='vestidos' id='ves' />
+				 <label for='ves' class='items'>Vestidos</label>
+		     </div>
+	     </div>
+
+        <div>
+		    <p>Precio</p>
+             <div>
+			     <input type='radio' name='rango' value='tod' id='tod' checked='checked'/>
+			     <label for='tod' class='items'>Todo</label>
+			 </div>
+	         <div>
+			     <input type='radio' name='rango' value='rango1' id='49'/>
+			     <label for='49' class='items'>€0 - €49</label>
+			 </div>
+	         <div>
+			     <input type='radio' name='rango' value='rango2' id='70'/>
+			     <label for='70' class='items'>€50 - €70</label>
+			 </div>
+		 </div>
+	     </fieldset>
+	 </div>
+	 </form>
+	
+		 </div>
+
+<div>	
+  <ul id='productos'>
+     <li class="pant rang2">
+	     <div><a href='naked.html'>
+	     <figure>
+             <picture>
+				  <source srcset='fotos/desktop/naked.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/naked.jpg' alt='Modelo utilizando un pantalón Naked en tono negro'/>
+             </picture>			 
+			 <figcaption>
+			     <p><span>Naked</span> €70</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+     <li class="pant rang1"><div><a href='#'>
+	     <figure>
+		     <picture>
+				  <source srcset='fotos/desktop/rag.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/rag.ropa.jpg' alt='Modelo utilizando un pantalón rag en tono blanco'/>
+             </picture>	
+			 <figcaption>
+			     <p><span>Rag</span> €40</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+	 <li class="pant rang2"><div><a href='#'>
+	     <figure>
+		     <picture>
+				  <source srcset='fotos/desktop/trapo.ropa.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/trapo.ropa.jpg' alt='Modelo utilizando un pantalón Trapo en tono violeta'/>
+             </picture>	
+			 <figcaption>
+			     <p><span>Trapo</span> €50</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+	 <li class="mono rang2"><div><a href='#'>
+	     <figure>
+		     <picture>
+				  <source srcset='fotos/desktop/cantar.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/cantar.ropa.jpg' alt='Modelo utilizando un mono Cantar-Pant en tono blanco'/>
+             </picture>	
+			 <figcaption>
+			     <p><span>Cantar-Pant</span> €70</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+	 <li class="mono rang2"><div><a href='#'>
+	     <figure>
+		     <picture>
+				  <source srcset='fotos/desktop/vpant.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/vpant.jpg' alt='Modelo utilizando un mono Vpant en tono gris'/>
+             </picture>
+			 <figcaption>
+			     <p><span>Vpant</span> €60</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+	 <li class="mono rang2"><div><a href='#'>
+	     <figure>
+		     <picture>
+				  <source srcset='fotos/desktop/jump.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/jump.jpg' alt='Modelo utilizando un mono Jump-Pant en tono negro'/>
+             </picture>
+			 <figcaption>
+			     <p><span>Jump-Pant</span> €65</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+	 <li class='vest rang2'><div><a href='#'>
+	     <figure>
+		     <picture>
+				  <source srcset='fotos/desktop/playa.ropa.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/playa-ropa.jpg' alt='Modelo utilizando un vestido Playa en tonos negro y gris'/>
+             </picture>
+			 <figcaption>
+			     <p><span>Playa</span> €50</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+	 <li class="reme rang1"><div><a href='#'>
+	     <figure>
+		     <picture>
+				  <source srcset='fotos/desktop/musiculosa.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/musi.jpg' alt='Modelo utilizando una remera Musiculosa en tono negro'/>
+             </picture>
+			 <figcaption>
+			     <p><span>Musiculosa</span> €30</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+	 <li class="reme rang1"><div><a href='#'>
+	     <figure>
+		     <picture>
+				  <source srcset='fotos/desktop/motorhome.ropa.web.jpg' type='image/jpg' media='(min-width: 1280px)' />
+				  
+			      <img src='fotos/movil/motorhome-ropa.jpg' alt='Modelo utilizando una remera Motorhome en tono blanco'/>
+             </picture>
+			 <figcaption>
+			     <p><span>Motorhome</span> €35</p>
+		     </figcaption>
+		 </figure>
+		 </a>
+		 </div>
+	 </li>
+</ul>
+</div>
+</div>
+</main>
+<footer>
+    <ul>
+         <li><a href='https://www.facebook.com/yoyogahome/' onclick="window.open(this.href,' _ blank'); return false;" >Facebook</a></li>
+         <li><a href='https://www.linkedin.com/in/alice-infante-73673215?trk=hp-identity-name' onclick="window.open(this.href,' _ blank'); return false;" >LinkedIn</a></li>
+         <li><a href='https://www.youtube.com/user/wonderalihappyhome' onclick="window.open(this.href,' _ blank'); return false;" >YouTube</a></li>
+    </ul>
+
+    <p>Copyright© Pamela Iglesias</p>
+</footer>
+</div>
+<script src="js/slide.js"></script>
+</body>
+</html>

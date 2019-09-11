@@ -1,0 +1,904 @@
+
+body#p1 a.selected1, body#p2 a.selected2, body#p3 a.selected3, body#p4 a.selected4{
+    background-color:#ffcc00
+}
+
+body#p6 a.selected6{
+    background-position:0px -35px;
+}
+		
+input:hover + label,
+input:checked + label{
+    font-family:'rs';
+    color:#ffcc00;
+}
+/*--------------CSS HEADER-------------*/
+#ppal{
+    max-width:1366px;
+}
+
+header h1{
+    font-size:1.5em;
+    padding-left: 11px;
+}
+		 
+header{
+    height:60px;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+                -ms-grid-row-align:center;
+            align-items:center;
+    }
+	
+nav{
+	margin:auto;
+    position: static;
+    height: 60px;
+   }
+
+#iconos{
+    display: none;
+}
+
+nav div{
+    display:none;
+}
+   
+#botones{
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width:672px;
+    height: auto;
+}
+			 
+#botones li a{
+    height:60px;
+    width:168px;
+    line-height: 60px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration:0.3s;
+            transition-duration:0.3s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;
+}			 
+
+header nav ul li a:hover{
+    background-color: #ffcc00; 
+}
+
+header>ul{
+    margin:0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    height: 60px;
+    width: 100px;
+}
+
+header>ul li a{
+    display:block;
+    background:url(../fotos/desktop/sprite-menu.png) no-repeat;
+    width:35px;
+    height:35px;
+    text-indent:-9000px;
+}
+
+a[href='log.html']:hover{
+    background-position:0px -35px;
+}
+	
+#bag{
+	 background-position:-35px 0px;
+    }
+	
+#bag:hover{
+	 background-position:-35px -35px;
+    }				
+	
+
+/*----------CSS HOME-----------*/
+#banner{
+    padding:0;
+    background: url(../fotos/desktop/banner.jpg) no-repeat;
+    height: calc(100vw * 0.4143484626647145);
+    background-size: cover;
+    }
+
+#banner h2{
+    margin:0;
+    font-size:4em;
+    padding-left:720px;
+    width:calc(100% - 2vw);
+    }
+	   
+#banner h2 span{
+    font-size:0.75em;
+    padding-top:20px;
+    }
+
+#hadas {
+    margin:0;
+    padding: 3vw 0;
+}
+
+#hadas>p{
+    font-size:19px;
+    margin-bottom:40px;
+    }
+
+#hadas>p span{
+    font-size:25px;
+    letter-spacing:3px;
+    }
+
+#hadas ul{
+    margin:0 auto;
+    max-width:1100px;
+    }
+	  
+#hadas img{
+    max-width: 250px;
+}
+
+figure figcaption p{
+    margin-top:18px;
+    font-size:1.40em;
+    }
+				   
+#hadas ul+p{
+	 font-size:1.25em;
+    }
+
+#hadas ul+p a{
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration:0.2s;
+            transition-duration:0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;
+    }
+
+#hadas ul+p a:hover{
+    color:black;
+    background-color:#ffcc00;
+    }
+		
+#explicacion{
+    margin:0;
+    padding: 2vw;
+    background: url(../fotos/desktop/yoyoga-fondo.jpg) no-repeat;
+    width: 100%;
+    height: calc(100vw * 0.4582723279648609);
+    background-size: cover;
+    position: relative;
+    border: none;
+    }
+
+#deg{
+    position: absolute;
+    top: calc(50% - 225px);
+    left: 2vw;
+    background:url(../fotos/desktop/degradado-yoyoga.png) repeat-x;
+    width:550px;
+    height:450px;
+    padding:2vw;
+    }
+
+#deg h2{
+    font-size:2em;
+    margin-bottom:38px;
+   }
+
+#deg p{
+    font-size:1.125em;
+    }
+
+#deg br{
+    line-height: 2.5em;
+}
+
+
+/*----------CSS ROPA-----------*/
+#p2 main {
+    padding: 3vw;
+}
+
+#control{
+    display: none;
+}
+
+legend{
+    display: block;
+    font-size: 1.5em;
+    font-family: 'rb';
+    margin-bottom: 30px;
+}
+
+#filtro{
+    position: static;
+    background: none;
+}
+
+#alado form{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    position: static;
+    width: 100%;
+    background:none;
+    color: black;
+}
+
+#alado{
+    margin:0;
+    padding:0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 272px 1fr;
+        grid-template-columns: 272px 1fr;
+    grid-column-gap: 30px;
+    } 
+
+#filtro+div{
+    justify-self: right;
+}
+
+#alado fieldset>div{
+    padding-bottom: 20px;
+}
+				 
+#productos{
+    list-style-type:none;
+    margin-left: auto;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+#productos a {
+    width:255px;
+    height:444px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration:0.2s;
+            transition-duration:0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;
+}	
+		
+#productos a:hover {
+    -webkit-transform:scale(1.02,1.02);
+            transform:scale(1.02,1.02);
+}
+
+		
+#productos a:active {
+    -webkit-transform:scale(0.95,0.95);
+            transform:scale(0.95,0.95);
+    opacity:0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+
+/*---------CSS PRENDA NAKED----------*/
+#p5 main{
+    padding: 3vw;
+}
+
+#h2naked+p{
+    margin-top:42px;
+    margin-left:83px;
+    }
+	
+#a, #s{
+    height:45px;
+    width:45px;
+    cursor:pointer;
+    text-indent:-9000px;
+    top: calc(50% - 22.5px);
+    border: none;
+    }
+
+#a{
+    background: url(../fotos/desktop/left-chevron.png) no-repeat;
+    left: 2vw;
+  }
+
+#s{
+    background: url(../fotos/desktop/right-chevron.png) no-repeat;
+    right: 2vw;
+  }
+
+#detalles>p{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+} 
+
+#detalles>p span{
+    position: static;
+}
+
+#detalle{
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-row-end: 2;
+}
+
+#detalle h3{
+    margin-top: 0;
+    padding-bottom:5px;
+    font-family:'rb';
+    font-size:19px;
+    margin-bottom:25px;
+}
+
+#detalle p{
+    margin:0;
+    padding:0;
+    font-size:15px;
+    margin-bottom:65px;
+    text-transform:uppercase;
+}
+
+#prod{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+}
+
+#prod form p {
+    margin:0;
+    font-family:'rb';
+    margin-bottom:9px;
+}
+
+#prod form p+div{
+    margin-bottom:20px;
+}
+		   
+#prod form select{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#prod form div div{
+    display: block;
+    height: auto;
+    line-height: normal;
+}
+
+#prod form div div div{
+    margin: 10px 0;
+}
+
+#prod form input[type='button']{
+    position: static;
+    width: 100%;
+    cursor:pointer;
+    margin-top: 1vw;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration:0.2s;
+            transition-duration:0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;
+}
+
+#prod form input[type='button']:hover{
+    background-color:black;
+    color:#ffcc00;
+}
+
+#cuidado>br {
+    line-height:  2em;
+}
+
+#detalle #cuidado{
+    text-transform:none;
+}
+
+
+/*-------------- ACERCA --------------*/
+#p3 p{
+    margin: 0;
+}
+
+.h2acerca{
+    font-size: 3em;
+    width: 100%;
+    height: calc(100vw * 0.5395314787701318);
+}
+
+#ali .h2acerca +figure img{
+    max-width: 1366px;
+}
+
+#ali h2{
+    top:60px;
+    }
+	
+#ali>div{
+    padding: 3vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+
+}
+
+#p3 br{
+    margin-bottom: 1em;
+}
+
+#ali>div div{
+    background-image: url(../fotos/desktop/ali-saltando.jpg);
+    width: 100%;
+    height: calc(100vw * 0.7799352750809061);
+    max-height: 482px;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#ali+section h2{
+    background:url(../fotos/desktop/dt-banner.jpg) no-repeat;
+    }
+
+#ali+section>div{
+    padding: 3vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 1em;
+}
+
+#ali+section>div p{
+    margin: 0;
+}
+
+#ali+section div iframe{
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 3;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+}
+
+#ali+section>div iframe+p{
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-row: 3;
+        grid-row-start: 2;
+}
+
+#ali+section>div blockquote{
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 3;
+    -ms-grid-row: 4;
+        grid-row-start: 3;
+    margin-bottom: 50px;
+}
+
+#ali+section>div blockquote+p{
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    -ms-grid-row: 4;
+        grid-row-start: 3;
+    text-align: right;
+    margin-top: auto;
+}
+
+#its h2{
+    background:none;
+}
+
+#its{
+    background:url(../fotos/desktop/its-fondo.jpg) no-repeat;
+    background-attachment: fixed;
+    color:black;
+    background-size: cover;
+    }
+
+#its div{
+    width:1174px;
+    height:737px;
+    margin:auto;
+}
+	  
+#its div h2{
+    width:auto;
+    height:auto;
+    color:black;
+    margin:0;
+    padding:0;
+    padding-top:80px;
+}
+	   
+#its div h2>span{
+    display:block;
+    margin:0;
+    padding:0;
+}
+
+#its #tipo{
+    margin-top: -65px;
+}
+
+#its p{
+    width:334.64px;
+    margin-top:40px;
+    font-size:17px;
+    }
+
+#its p a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+/*-------------- CONTACTO --------------*/
+#contacto{
+    background: none;
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-row-align: center;
+        align-items: center;
+    } 
+
+#contacto> :first-child{
+    padding: 0;
+    position: static;
+    background: none;
+    } 
+		 
+#contacto> :last-child{
+    display: block;
+    background: url(../fotos/desktop/ali-bici.jpg) no-repeat right;
+    width: 700px;
+    height: 628px;
+}
+
+#contacto h2{
+    font-size:1.5em;		 
+    }
+
+#contacto p span{
+    margin:30px 0;
+    }
+
+#contacto input[type=text], 
+#contacto input[type=email],
+#contacto textarea{
+    display:block;
+    margin-bottom:25px;
+    padding:0;
+    padding-left:10px;
+}
+
+#contacto input[type=text], #contacto input[type=email]{
+    width:390px;
+}
+
+#contacto textarea{ 
+    padding-top:10px;
+    width:390px;
+    height:170px;
+}
+
+#contacto input[type=submit]{
+    text-transform:uppercase;
+    font-size:20px;
+    margin:auto;
+    cursor:pointer; 
+    -webkit-transition-property: all; 
+    transition-property: all;
+    -webkit-transition-duration:0.2s;
+            transition-duration:0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;					 
+}
+							
+#contacto input[type=submit]:hover{
+    background-color:#ffcc00;
+    color:white;
+}
+
+#contacto+section{
+    background: url(../fotos/desktop/casa.png) no-repeat center 3vw;
+    padding: 3vw 0;
+}
+
+#contacto+section> :nth-child(2){
+    margin-top: 100px;
+}
+
+#contacto+section> :nth-child(2) span{
+    font-size: 1em;
+}
+ 
+#contacto+section iframe{
+    width: 100%;
+    margin: 30px auto;
+}
+
+#contacto+section ul{
+    margin:3vw auto;
+}
+
+#contacto+section form div{
+    margin:auto;
+    padding:0;
+    width:882px;
+    height:50px;
+}
+		
+#contacto+section input[type=submit],
+#contacto+section input[type=email]{
+    height:50px;
+}
+
+#contacto+section form div input[type=email]{
+    padding: 10px;
+    width:699px;
+    margin-right: 20px;
+    }
+	
+#contacto+section input[type=submit]{
+    margin:0;
+    padding:0;
+    width:140px;
+    font-size:19px;
+    cursor:pointer;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration:0.2s;
+            transition-duration:0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;
+    }
+
+#contacto+section input[type=submit]:hover{
+    background-color:#ffcc00;
+    color:white;
+}
+
+
+/*---------CSS LOGIN/REGISTRARSE----------*/
+#p6 main{
+    padding: 3vw;
+}
+
+#formularios{
+    margin:auto;
+    width:1173px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:reverse;
+        -ms-flex-direction:row-reverse;
+            flex-direction:row-reverse;
+    background:url(../fotos/desktop/cris.jpg) no-repeat right bottom;
+            }
+			
+#sesion{
+    margin:0;
+    padding:0;
+    width:500px;
+    }
+
+#sesion h2{
+    width:500px;
+    font-size:1.25em;
+    margin-bottom:20px;
+    }
+
+#sesion form{
+    margin:auto;
+    padding:0;
+    text-align:center;
+    }
+
+#sesion form p{
+    width:370px;
+    }
+		
+.largo, #p6 fieldset>div, #p6 fieldset+div{
+    width: 400px;
+}
+
+
+#sesion form div input[type='button']{
+    width:500px;
+    font-size:20px;
+    cursor:pointer;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration:0.2s;
+            transition-duration:0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;
+    }
+
+#formularios input[type="button"]:hover, 
+#formularios input[type="submit"]:hover{
+    background-color:black;
+    color:#ffcc00;
+}
+
+/*REGISTRARSE*/
+#sesion+div{
+    margin:0;
+    padding:0;
+    width:500px;
+    }
+
+#sesion+div h2{
+    margin:0;
+    width:500px;
+    font-size:1.25em;
+    }
+
+#sesion+div form div fieldset{
+    width:400px;
+    margin:auto;
+    }
+	
+#sesion+div form div fieldset{
+    margin-top: 30px;
+    
+}
+
+#sesion+div form div fieldset legend{
+    font-family:'rs';
+    font-size:1.125em;
+    text-align:center;
+    margin-bottom: 10px;
+}					  
+								  
+#sesion+div form div fieldset p{
+    width:400px;
+}								  							  
+					  
+#formularios input[type="submit"]{
+    cursor:pointer;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration:0.2s;
+            transition-duration:0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;
+}							  
+							  	
+#formularios input[type="button"], 
+#formularios input[type="submit"]{
+    margin-bottom: 0;
+}
+															 
+/*---------CSS GRACIAS----------*/								  
+#gracias{
+    height: calc(100vh - 60px);
+    background:url(../fotos/desktop/fondo-gracias.jpg) no-repeat;
+    width: 100%;
+    }		
+
+#agra{
+    top: calc(50% - 35vh);
+    height:70vh;
+}
+
+#agra h2{
+    margin:0;
+    font-size:5em;
+    }								  
+								  							   
+#agra>p a{
+    width: 250px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration:0.2s;
+            transition-duration:0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-delay:0s;
+            transition-delay:0s;
+}
+
+#agra>p a:hover{
+    color:black;
+}
+
+
+/*-------------- FOOTER --------------*/
+#p3 footer p{
+    margin: 0;
+    margin-bottom:10px;
+}
+
+footer ul{
+    width:150px;
+    }
+
+footer ul li a{
+    background: url(../fotos/desktop/sprite-redes.png) left top no-repeat;
+    height:35px;
+    width:35px;
+    }
+
+a[href*=facebook]{
+	background-position:0 0;
+	
+   }
+   
+a[href*=youtube]{
+	background-position:-35px 0px;
+   }   
+   
+a[href*=linkedin]{
+	background-position:-70px 0px;
+   }	
+
+a[href*=facebook]:hover{
+    background-position:0px -35px;
+    }  
+ 
+a[href*=youtube]:hover{
+    background-position:-35px -35px;
+    }
+
+a[href*=linkedin]:hover{
+    background-position:-70px -35px;
+    }
+
+footer p{
+    font-size: 0.9em;
+}

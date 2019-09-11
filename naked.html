@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+	
+	<title>YOYOGA | NAKED</title>
+
+	<link rel='stylesheet' href='css/estilos.css' media='screen and (min-width: 320px)'/>
+	
+	<link rel='stylesheet' href='css/estilos1.css' media='screen and (min-width: 1280px) and (max-width: 1366px)'/>
+	
+</head>
+<body id='p5'>
+<div id='ppal'>
+<header>
+     <h1><a href='index.html'>Yoyoga</a></h1>
+
+     <nav id='menu'>
+        <ul id="iconos">
+            <li><a href="#menu">Abrir</a></li>
+            <li><a href="#">Cerrar</a></li>
+        </ul>
+	 
+	     <ul id='botones'>
+	         <li><a href='index.html' class='selected1'>Home</a></li>
+			 <li><a href='ropa.html' class='selected2'>Ropa</a></li>
+			 <li><a href='acerca.html' class='selected3'>Acerca</a></li>
+			 <li><a href='contacto.html' class='selected4'>Contacto</a></li>
+	     </ul>
+	 </nav>     
+	 
+	 <ul>
+         <li><a href='log.html' class='selected5'>Iniciar sesión/Registrarse</a></li>
+		 <li><a href='#' id='bag'>Bolsa de compras</a></li>
+	 </ul>
+</header>
+<main>
+    <h2 id='h2naked'>NAKED</h2>
+    
+    <section> 
+      
+        <div>
+             <img class='fotos' src='fotos/desktop/naked-frente.jpg' alt='Vista de frente del pantalón Naked en tono negro'/>
+             <img class='fotos' src='fotos/desktop/naked-cote.jpg' alt='Vista lateral del pantalón Naked en tono negro'/>
+             <img class='fotos' src='fotos/desktop/naked-atras.jpg' alt='Vista trasera del pantalón Naked en tono negro'/>
+             <img class='fotos' src='fotos/desktop/naked-gris-frente.jpg' alt='Vista de frente del pantalón Naked en tono gris'/>
+             <img class='fotos' src='fotos/desktop/naked-gris-atras.jpg' alt='Vista trasera del pantalón Naked en tono gris'/>
+
+             <button id='a' onclick="plusDivs(-1)">Anterior</button>
+             <button id='s' onclick="plusDivs(+1)">Siguiente</button>
+        </div>
+	 
+    </section>
+     
+    <section id='detalles'>
+	 
+        <p>Naked <span>€50</span></p>
+     
+        <div id='prod'>
+        <form method='POST' action='gracias.html'  enctype='multipart/form-data'>
+	 <div>   
+		 <p>Color</p>
+		 <div>
+	       <div>
+		     <input type='radio' name='color' value='negro' checked='checked' id='negro'/> 
+		     <label for='negro'>Negro</label>
+		   </div>
+	       <div>
+		     <input type='radio' name='color' value='gris' id='gris'/> 
+		     <label for='gris'>Gris</label>
+		   </div>
+	       <div>
+		     <input type='radio' name='color' value='blanco' id='blanco'/> 
+		     <label for='blanco'>Blanco</label>
+		   </div>
+		   <div>
+		     <input type='radio' name='color' value='mostaza' id='mos'/> 
+		     <label for='mos'>Mostaza</label>
+		   </div>
+         </div>
+         <p>Talle</p>
+		   <select name='talle'>
+		     <option value='s' lang='en' >Small</option>
+		     <option value='m' lang='en' >Medium</option>
+		     <option value='l' lang='en' >Large</option>
+		   </select>
+		 
+		 <p>Sexo</p>
+		   <select name='sexo'>
+		     <option value='f'>Femenino</option>
+		     <option value='m'>Masculino</option>
+		   </select>
+		 
+		 <p>Longitud</p>
+		   <select name='largo'>
+		     <option value='largo'>Largo</option>
+		     <option value='corto'>Corto</option>
+		   </select>
+		 
+		 <input type='button' value='Comprar' onclick="alert('Se agregó el producto a la bolsa');"/>
+		 
+     </div>
+     </form>
+     
+	 <div id='detalle'>
+     <h3>Detalles</h3>
+	 
+	 <p>Lino 100%</p>
+	 
+	 <h3>Cuidados</h3>
+	 
+	 <p id='cuidado'>Lávame a mano y canta, cuélgame de una percha con cuidado, para mantenerme lejos de la plancha. Danza y por favor, ¡No me centrifugues! 
+     <span>También puedes darme como un regalo.</span>
+     ¿Qué tal si me lavas de vez en cuando? <br/>
+
+ 
+    <q>No seas nadie más <br>
+     si podés ser vos mismo.</q>
+
+     <cite>Paracelsus</cite></p>
+	 </div>
+        </div>
+	</section>
+</main>
+
+<footer>
+    <ul>
+         <li><a href='https://www.facebook.com/yoyogahome/' onclick="window.open(this.href,' _ blank'); return false;" >Facebook</a></li>
+         <li><a href='https://www.linkedin.com/in/alice-infante-73673215?trk=hp-identity-name' onclick="window.open(this.href,' _ blank'); return false;" >LinkedIn</a></li>
+         <li><a href='https://www.youtube.com/user/wonderalihappyhome' onclick="window.open(this.href,' _ blank'); return false;" >YouTube</a></li>
+    </ul>
+
+    <p>Copyright© Pamela Iglesias</p>
+</footer>
+</div>
+<script src="js/slide.js"></script>
+</body>
+</html>

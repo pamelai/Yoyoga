@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>YOYOGA | LOG </title>
+	
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+	
+	<link rel='stylesheet' href='css/estilos.css'/>
+	<link rel='stylesheet' href='css/estilos1.css' media='screen and (min-width: 1280px)'/>
+</head>
+<body id='p6'>
+<div id='ppal'>
+<header>
+    <h1><a href='index.html'>Yoyoga</a></h1>
+    
+    <nav id='menu'>
+        <ul id="iconos">
+            <li><a href="#menu">Abrir</a></li>
+            <li><a href="#">Cerrar</a></li>
+        </ul>
+	 
+	     <ul id='botones'>
+	         <li><a href='index.html' class='selected1'>Home</a></li>
+			 <li><a href='ropa.html' class='selected2'>Ropa</a></li>
+			 <li><a href='acerca.html' class='selected3'>Acerca</a></li>
+			 <li><a href='contacto.html' class='selected4'>Contacto</a></li>
+	     </ul>
+	 </nav>   
+	 
+	 <ul>
+         <li><a href='log.html' class='selected6'>Iniciar sesión/Registrarse</a></li>
+		 <li><a href='#' id='bag'>Bolsa de compras</a></li>
+	 </ul>
+</header>
+<main>
+    <div id='formularios'>
+     <div id='sesion'>
+     <h2>Iniciar Sesión</h2>
+	 
+	 <form method='POST' action='gracias.html'  enctype='multipart/form-data'>
+	 <div>
+	     
+		 <p>E-mail</p>
+		 <input type='email' name='email' required class='largo' />
+	 
+	     <p>Contraseña</p>
+		 <input type='password' name='contra'  required class='largo'/>
+		 
+	     <input type='button' onclick="alert('Ha iniciado sesión');" value='Iniciar sesión' />
+	 
+	 </div>
+	 </form>
+	 </div>
+	 
+	 <div>
+	 <h2>Registrarse</h2>
+	 
+	 <form method='POST' action='gracias.html'  enctype='multipart/form-data'>
+	 <div>
+	     <fieldset>
+		   <legend>Datos personales (*requerido)</legend>
+		   
+		     <p>Nombre*</p>
+		     <input type='text' name='nombre' placeholder='Ej: Pamela' required class='largo'/>
+	 
+	         <p>Apellido*</p>
+		     <input type='text' name='ape' placeholder='Ej: Iglesias' required class='largo'/>
+		 
+	         <p>E-mail*</p>
+	         <input type='email' name='email' placeholder='Ej: ejemplo@ejemplo.com' required class='largo'/>
+		 
+		     <p>Confirmar e-mail*</p>
+	         <input type='email' name='email' placeholder='Ej: ejemplo@ejemplo.com' required class='largo'/>
+		 
+		     <p>Contraseña*</p>
+		     <input type='password' name='contra' placeholder='Ingresar contraseña' required class='largo'/>
+		 
+		     <p>Confirmar contraseña*</p>
+		     <input type='password' name='contra' placeholder='Ingresar contraseña' required class='largo'/>
+		 </fieldset>
+		 
+		 <fieldset>
+		   <legend>Opcionales</legend>
+		   
+		     <p>Sexo</p>
+		     <div>
+			   <input type='radio' name='sexo' value='m' id='m'/> 
+			   <label for='m'>Masculino</label>
+			 </div>
+	         <div>
+			   <input type='radio' name='sexo' value='f' id='f'/> 
+			  <label for='f'>Femenino</label>
+			 </div>
+	         <div>
+			   <input type='radio' name='sexo' value='o' id='o'/> 
+			   <label for='o'>Otro</label>
+			 </div>
+		 
+		     <p>Fecha de nacimiento</p>
+		     <input type='date' name='nacimiento' class='largo'/>
+		 
+		     <p>Cargar foto de usuario</p>
+		     <input type='file' name='foto'  class='largo'/>
+		 
+		     <p>Cuéntanos tus intereses y recibe <span lang='en'>newsltters</span> con consejos para mantener una vida saludable y ecológica al estilo Yoyoga
+			 </p>
+			 <div>
+			   <input type='checkbox' name='danza' value='danza' id='d'/>
+			   <label for='d'>Danza</label>
+			 </div>
+			 <div>
+			   <input type='checkbox' name='deporte' value='deporte' id='dep'/>
+			   <label for='dep'>Deporte</label>
+			 </div>
+			 <div>
+			   <input type='checkbox' name='yoga' value='yoga' id='y'/>
+			   <label for='y'>Yoga</label>
+			 </div>
+         </fieldset>
+		 
+		    <div><input type='radio' name='terminos' value='a' checked='checked' required />Acepto las Políticas de Privacidad y los Términos y Condiciones.</div>
+			
+		 <input type='submit' value='Registrarse' />
+	 </div>
+	 </form>
+	 </div>
+	</div>
+	 
+</main>
+<footer>
+    <ul>
+         <li><a href='https://www.facebook.com/yoyogahome/' onclick="window.open(this.href,' _ blank'); return false;" >Facebook</a></li>
+         <li><a href='https://www.linkedin.com/in/alice-infante-73673215?trk=hp-identity-name' onclick="window.open(this.href,' _ blank'); return false;" >LinkedIn</a></li>
+         <li><a href='https://www.youtube.com/user/wonderalihappyhome' onclick="window.open(this.href,' _ blank'); return false;" >YouTube</a></li>
+    </ul>
+
+    <p>Copyright© Pamela Iglesias</p>
+</footer>
+</div>
+</body>
+</html>
